@@ -2,8 +2,6 @@
 
 A simple, terminal-based file manager written in Python using the `curses` library. It provides basic functionalities for navigating directories, viewing file details, performing simple file operations, executing Python scripts, and viewing text files.
 
-**(Optional: Add a Screenshot/GIF Here!)**
-*It's highly recommended to add a screenshot or an animated GIF showing the file manager in action. Replace the line below with your actual image.*
 ## Features
 
 * **Single-Pane View:** Displays the contents of the current directory in a single list.
@@ -35,10 +33,10 @@ A simple, terminal-based file manager written in Python using the `curses` libra
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd curses-file-manager # Or your repository directory name
+    git clone https://github.com/emphyri0/file_manager
+    cd curses-file-manager 
     ```
-    *(Replace `<your-repository-url>` with the actual link to your repository!)*
+    
 
 2.  **No extra Python libraries needed!** Uses only standard library modules (`os`, `stat`, `datetime`, `locale`, `curses`, `shutil`, `subprocess`).
 
